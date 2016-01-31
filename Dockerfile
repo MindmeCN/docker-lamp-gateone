@@ -8,7 +8,7 @@ RUN chmod +x /usr/sbin/setup-openssh
 RUN setup-openssh
 
 ADD https://raw.githubusercontent.com/greyltc/docker-sshd/master/run-sshd.sh /usr/bin/run-sshd
-chmod +x usr/bin/run-sshd
+RUN chmod +x usr/bin/run-sshd
 
 # install gateone
 ADD https://raw.githubusercontent.com/greyltc/docker-gateone/master/setup-gateone.sh /usr/sbin/setup-gateone

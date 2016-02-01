@@ -16,7 +16,7 @@ RUN chmod +x /usr/sbin/setup-gateone
 RUN setup-gateone
 
 ADD https://raw.githubusercontent.com/greyltc/docker-gateone/master/run-gateone.sh /usr/bin/run-gateone
-RUN chmod +x run-gateone
+RUN chmod +x /usr/bin/run-gateone
 
 ENV ENABLE_DAV true
 

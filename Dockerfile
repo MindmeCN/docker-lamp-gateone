@@ -12,4 +12,6 @@ RUN chmod +x /usr/bin/run-gateone
 
 ENV ENABLE_DAV true
 
+RUN usermod -aG http docker
+
 CMD run-sshd; run-gateone; start-servers; sleep infinity

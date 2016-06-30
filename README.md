@@ -16,9 +16,9 @@ and you should see a page with a big button for the Terminal:SSH application
 1. Enter `docker` for the user
 1. Type `sl` to see a nice steam locomotive.
 1. **[Optional] Stop the gateone docker server instance**  
-`docker stop gateone`
+`docker stop lamp-gateone`
 1. **[Optional] Delete the gateone docker server instance (after stopping it)**  
-`docker rm gateone`
+`docker rm lamp-gateone`
 1. **Profit.**
 
 ## SSH

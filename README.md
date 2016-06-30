@@ -22,3 +22,6 @@ and you should see a page with a big button for the Terminal:SSH application
 
 ## SSH
 You can also ssh into the container with `ssh docker@localhost:2345`
+
+## Webdav
+The `/srv/webdav/` folder in the container is served up (r/w) via webdav at https://localhost/dav

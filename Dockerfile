@@ -12,4 +12,4 @@ RUN chmod +x /usr/bin/run-gateone
 
 ENV ENABLE_DAV true
 
-CMD run-sshd && run-gateone && start-servers && sleep infinity
+CMD run-sshd; run-gateone; start-servers; sleep infinity

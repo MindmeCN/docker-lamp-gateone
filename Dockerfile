@@ -12,6 +12,9 @@ RUN chmod +x /usr/bin/run-gateone
 
 ENV ENABLE_DAV true
 
+# do some things to make webdav easier to use
 RUN usermod -aG http docker
+RUN ln -s /srv/webdav/ /home/docker/webdav
+RUN ln -s /srv/webdav/ /root/webdav
 
 CMD run-sshd; run-gateone; start-servers; sleep infinity

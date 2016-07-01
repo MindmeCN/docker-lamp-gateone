@@ -22,7 +22,7 @@ and you should see a page with a big button for the Terminal:SSH application
 1. **Profit.**
 
 ## SSH
-You can also ssh into the container with `ssh docker@localhost:2345`
+You can also ssh into the container with `ssh docker@localhost -p2345`
 
 ## Webdav
 The `/srv/webdav/` folder in the container is served up (r/w) via webdav by browsing to https://localhost/dav
